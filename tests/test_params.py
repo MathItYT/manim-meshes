@@ -3,7 +3,7 @@ test for params.py
 """
 # python imports
 import pytest
-from colour import Color
+from manim.utils.color import ManimColor as Color
 # third-party imports
 import manim as m
 
