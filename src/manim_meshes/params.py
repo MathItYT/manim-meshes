@@ -4,7 +4,7 @@ Parameters can get out of hand for the meshes, store defaults and casting in sep
 # python imports
 from typing import Any
 # third-party imports
-from colour import Color
+from manim.utils.color import ManimColor as Color
 import manim as m
 import moderngl
 # local imports
